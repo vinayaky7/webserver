@@ -22,7 +22,7 @@
 [root@testvm ~]# cd /var/www/html
 
 ## Edit document root of the web server with your index file
-[root@testvm html]# vi index.html [Write plain text]
+[root@testvm html]# vi index.html
 
 ## Open Port 80 on Google Cloud Platform Firewall Rules under your VPC or Default VPC
 
