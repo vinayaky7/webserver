@@ -36,7 +36,7 @@
 ## Edit document root of the web server with your index file
 [root@testvm html]# vi index.html
 
-## Open Port 80 on Google Cloud Platform Firewall Rules under your VPC or Default VPC
+## Open Port 80 in Security Group on AWS Cloud Platform
 
 ## Now Browse Your Public IP 
 
