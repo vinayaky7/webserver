@@ -12,23 +12,11 @@
 ## Start httpd service on Boot on CentOS 7
 [root@testvm ~]# systemctl enable httpd
 
-## Start httpd service on Boot on CentOS 6
-[root@testvm ~]# chkconfig httpd on
-
-## Stop local firewall on CentOS 7
-[root@testvm ~]# systemctl stop firewalld
-
-## Stop local firewall on CentOS 6
-[root@testvm ~]# /etc/init.d/iptables stop
-
 ## Check httpd service Status on CentOS 7
 [root@testvm ~]# systemctl status httpd
 
 ## Check httpd service Status on CentOS 6
 [root@testvm ~]# service httpd status
-
-## Check firewalld service Status on CentOS 7
-[root@testvm ~]# systemctl status firewalld
 
 ## Go to document root of the web server
 [root@testvm ~]# cd /var/www/html
