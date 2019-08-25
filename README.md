@@ -6,17 +6,12 @@
 ## Start httpd service on CentOS 7
 [root@testvm ~]# systemctl start httpd
 
-## Start httpd service on CentOS 6
-[root@testvm ~]# service httpd start
 
 ## Start httpd service on Boot on CentOS 7
 [root@testvm ~]# systemctl enable httpd
 
 ## Check httpd service Status on CentOS 7
 [root@testvm ~]# systemctl status httpd
-
-## Check httpd service Status on CentOS 6
-[root@testvm ~]# service httpd status
 
 ## Go to document root of the web server
 [root@testvm ~]# cd /var/www/html
