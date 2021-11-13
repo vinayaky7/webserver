@@ -3,7 +3,7 @@
 ## Install httpd package on CentOS 7 or CentOS 6
 [root@testvm ~]# yum install httpd -y
 
-## Start httpd service on CentOS 7
+## Start httpd service on CentOS 7.x
 [root@testvm ~]# systemctl start httpd
 
 
