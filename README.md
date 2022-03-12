@@ -25,4 +25,16 @@
 
 ## Have Funnnnnn...!!!
 
+5 things to remember while installing a tool/utility or an application
+
+1. Name of  the tool/utility/application
+
+2. Name of the service if that tool/utility or an application works as a service.
+
+3. Port no. of that tool/utility or an application.
+
+4. root directory of that tool/utility or an application.
+
+5. Log file location of that tool/utility or an application.
+
 
