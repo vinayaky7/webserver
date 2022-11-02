@@ -16,8 +16,9 @@
 ## Go to document root of the web server
 [root@testvm ~]# cd /var/www/html
 
-## Edit document root of the web server with your index file
+## Edit document root of the web server with your index file. Please refer [](https://gitlab.com/-/snippets/2303015) for index.html code
 [root@testvm html]# vi index.html
+
 
 ## Open Port 80 in Security Group on AWS Cloud Platform
 
